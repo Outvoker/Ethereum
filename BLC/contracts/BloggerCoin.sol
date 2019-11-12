@@ -6,8 +6,8 @@ contract BloggerCoin is StandardToken {
     string public symbol = "BLC";
     uint8 public decimals = 4;
     uint256 public INITIAL_SUPPLY = 666666;
-    constructor() {
-        totalSupply = INITIAL_SUPPLY;
+    constructor() public {
+        totalSupply_ = INITIAL_SUPPLY;
         balances[msg.sender] = INITIAL_SUPPLY;
     }
 }
