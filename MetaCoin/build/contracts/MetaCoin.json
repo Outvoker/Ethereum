@@ -2526,14 +2526,14 @@
         }
       },
       "links": {
-        "ConvertLib": "0x116eCE135dd5313e6e8EAbcE0beF3A539c5354DC"
+        "ConvertLib": "0x817E311903B0d4AB48be4829350d96Fb3bEA5e2E"
       },
-      "address": "0x0A53cE37EA6C2bb135F283eA30A09d790e064e7B",
-      "transactionHash": "0x0d7e47bc9b062af3e5f2ece6d67c017a2556ea443ab3a91838d185766740c98c"
+      "address": "0x53E502BF33290998f6537f54Ae01f2c0a67c3AFf",
+      "transactionHash": "0xf6d15aeaa83c744d3cfd69576364dc3b6bdbfcfe372d6c9bdc60c46de267513a"
     }
   },
   "schemaVersion": "3.0.17",
-  "updatedAt": "2019-11-03T08:16:35.479Z",
+  "updatedAt": "2019-11-13T02:17:10.413Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
