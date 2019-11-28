@@ -47,8 +47,12 @@ echo "var storageOutput=`solc --optimize --combined-json abi,bin,interface test.
 
 ### truffle+geth
 
-`geth --datadir data0 --networkid 1108 --allow-insecure-unlock --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpcapi "admin,debug,eth,miner,net,personal,shh,txpool,web3" -rpccorsdomain "*" --nodiscover --ipcdisable console 2>>geth.log`
-silk skate illness always trick fatal soap lift uniform model horse basic
+`geth --datadir data0 --networkid 5777 --allow-insecure-unlock --rpc --rpcaddr 0.0.0.0 --rpcport 7545 --rpcapi "admin,debug,eth,miner,net,personal,shh,txpool,web3" -rpccorsdomain "*" --nodiscover --ipcdisable console 2>>geth.log`
+react-box还需要修改client/src/getWeb3.js中
+`const provider = new Web3.providers.HttpProvider(
+          "http://127.0.0.1:7545"
+        );`
+端口8545改为7545
 
 ### Geth指令
 
